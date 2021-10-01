@@ -85,7 +85,7 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  position: relative;
+  text-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
 }
