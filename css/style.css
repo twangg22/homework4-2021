@@ -51,7 +51,6 @@ h1{
 
 p{
   padding-top: 15px;
-  
 }
 
 a{
@@ -77,7 +76,7 @@ tr: defines a row in a table
 
 td{
   text-align: center;
-  border-top: #000000 2px;
+  border-top: solid #000000 2px;
   padding: 10px;
 }
 
@@ -86,7 +85,7 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  text-align: center;
+  position: relative;
   text-transform: uppercase;
   background-color: #7e0825;
 }
@@ -94,6 +93,7 @@ td{
 
 .rowhead{
   border-right: solid #000000 2px;
+  border-top: solid #000000 2px;
 }
 
 tr:nth-child(odd){
@@ -141,10 +141,15 @@ tbody tr:last-child th:first-child{
 /*Add selectors and rules here*/
 
 
-footer{
+footer {
+  position:fixed;
   min-height: 75px;
   width: 100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
